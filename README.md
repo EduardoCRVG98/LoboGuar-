@@ -4,4 +4,6 @@ https://github.com/EduardoCRVG98/LoboGuar-
 
 https://eduardocrvg98.github.io/LoboGuar-/index1%20(2).HTML
 
+https://eduardocrvg98.github.io/LoboGuar-/paginas.HTML
+
 
