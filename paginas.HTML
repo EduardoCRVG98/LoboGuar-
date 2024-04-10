@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paginação</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <ul class="pagination">
+        <li><a href="#" class="prev">&laquo;</a></li>
+        <li><a href="#" class="active">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#" class="next">&raquo;</a></li>
+    </ul>
+
+</body>
+</html>
+<style class="css">/* Estilos gerais */
+    body {
+        font-family: Arial, sans-serif;
+    }
+    
+    .pagination {
+        list-style-type: none;
+        padding: 0;
+        margin: 20px 0;
+        text-align: center;
+    }
+    
+    .pagination li {
+        display: inline-block;
+        margin-right: 5px;
+    }
+    
+    .pagination li a {
+        display: block;
+        padding: 10px 15px;
+        text-decoration: none;
+        color: #333;
+        border: 1px solid #ccc;
+        background-color: #fff;
+    }
+    
+    .pagination li a:hover {
+        background-color: #e0e0e0;
+    }
+    
+    .pagination li a.active {
+        background-color: #007bff;
+        color: white;
+        border: 1px solid #007bff;
+    }
+    
+    .pagination li a.prev,
+    .pagination li a.next {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: 1px solid #007bff;
+    }
+    
+    .pagination li a.prev:hover,
+    .pagination li a.next:hover {
+        background-color: #0056b3;
+    }
+    </style>
